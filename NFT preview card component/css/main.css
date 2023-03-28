@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: hsl(217, 54%, 11%);
+    font-family: 'Outfit', sans-serif;
+    color: hsl(0, 0%, 100%);
+}
+.card{
+    width: 26%;
+    margin: 50px auto;
+    background-color: hsl(216, 50%, 16%);
+}
+.card .img{
+    padding: 30px;
+}
+.card .img img{
+    width: 100%;
+    text-align: center;
+}
+.card .data{
+    width: 90%;
+    padding: 30px;
+}
+.card .data h1{
+    font-size: 18px;
+    margin: 15px 0;
+    font-weight: 600;
+}
+.card .data .desc{
+    font-size: 14px;
+    color: hsl(213, 73%, 78%);
+    font-weight: 400;
+    text-align: justify;
+    word-spacing: 0;
+}
+.card .data .price{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+.card .data .price .pro1 p{
+    font-size: 14px;
+    font-weight: 300;
+    color: aqua;
+}
+.card .data .price .date1 p{
+    font-size: 14px;
+    font-weight: 300;
+    color: hsl(213, 73%, 78%);
+}
+.card .data hr{
+    color: hsl(215, 32%, 27%);
+}
+.card .data .authors{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.card .data .authors .image{
+    width: 45%;
+}
+.card .data .authors .image img{
+    width: 50%;
+    height: 100%;
+    border-radius: 50%;
+}
+.card .data .authors .author-name{
+    width: 48%;
+}
+.card .data .authors .author-name p{
+    font-size: 11px;
+    margin: 15px 0;
+    font-weight: 400;
+    color: hsl(215, 51%, 70%);
+}
+.card .data .authors .author-name span{
+    color: #fff;
+}
